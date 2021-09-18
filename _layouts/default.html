@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body>
+    <div class="container-fluid" role="main">
+      <div class="row">
+        <nav class="navbar navbar-default visible-xs-block visible-sm-block hidden-print">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsed-menu" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Alex Bugosh</a>
+          </div>
+          <div class="collapse navbar-collapse" id="collapsed-menu">
+            <ul class="nav navbar-nav">
+              <li><a href="/">About</a></li>
+              <!-- <li><a href="/writing">Writing</a></li> -->
+              <li><a href="/resume">Resume</a></li>
+              <!-- <li><a href="/projects">Projects</a></li> -->
+              <li><a href="/contact">Contact</a></li>
+              <li>
+                <ul class="list-inline" id="nav-social-list">
+                  <li><a target="_blank" href="https://www.linkedin.com/in/abugosh"><i class="fa fa-linkedin"></i></a></li>
+                  <li><a target="_blank" href="https://twitter.com/abugosh"><i class="fa fa-twitter"></i></a></li>
+                  <li><a target="_blank" href="https://github.com/abugosh"><i class="fa fa-github"></i></a></li>
+                  <li><a href="mailto:alex@alexbugosh.com"><i class="fa fa-envelope"></i></a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <div class="col-md-2 visible-md-block visible-lg-block hidden-print" id="menu">
+          <h2 id="title"><a href="/">Alex<br/>Bugosh</a></h2>
+          <br/>
+          <ul class="list-unstyled">
+            <li><h5><a href="/">About</a></h5></li>
+            <!-- <li><h5><a href="/writing">Writing</a></h5></li> -->
+            <li><h5><a href="/resume">Resume</a></h5></li>
+            <!-- <li><h5><a href="/projects">Projects</a></h5></li> -->
+            <li><h5><a href="/contact">Contact</a></h5></li>
+          </ul>
+          <br />
+          <ul class="list-inline">
+            <li><a target="_blank" href="https://www.linkedin.com/in/abugosh"><i class="fa fa-linkedin"></i></a></li>
+            <li><a target="_blank" href="https://twitter.com/abugosh"><i class="fa fa-twitter"></i></a></li>
+            <li><a target="_blank" href="https://github.com/abugosh"><i class="fa fa-github"></i></a></li>
+            <li><a href="mailto:alex@alexbugosh.com"><i class="fa fa-envelope"></i></a></li>
+          </ul>
+        </div> <!-- #navigation -->
+
+        <div class="col-md-9" id="main">
+
+          {{ content }}
+
+        </div> <!-- #main -->
+      </div> <!-- /row -->
+    </div> <!-- /container-fluid -->
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <!-- <script src="<%= static_path(@conn, "/js/app.js") %>"></script> -->
+  </body>
+
+</html>

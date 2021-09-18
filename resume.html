@@ -1,0 +1,75 @@
+---
+layout: default
+permalink: /resume/
+---
+
+<div class="row">
+    <h1 class="text-center">Alex Bugosh<br /><small>alex@alexbugosh.com</small></h1>
+</div>
+<div class="row">
+  <h3>Experience</h3>
+  {% for job in site.jobs %}
+    <hr />
+    <h4>{{ job.title }} at {{ job.company }} <small>{{ job.start }} - {{ job.end }}</small></h4>
+
+    {{ job.content  }}
+  {% endfor %}
+</div>
+<div class="row">
+  <h3>Skills</h3>
+  <!--
+  Scrum
+  -->
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Languages</th>
+        <th>Web Technologies</th>
+        <th>Other</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Ruby</td>
+        <td>Ruby on Rails</td>
+        <td>Git</td>
+      </tr>
+      <tr>
+        <td>Javascript</td>
+        <td>Backbone.js</td>
+        <td>Linux</td>
+      </tr>
+      <tr>
+        <td>Bash</td>
+        <td>jQuery</td>
+        <td>MySQL</td>
+      </tr>
+      <tr>
+        <td>Java</td>
+        <td>Bootstrap</td>
+        <td>PostgreSQL</td>
+      </tr>
+      <tr>
+        <td>C</td>
+        <td>HTML/CSS</td>
+        <td>Redis</td>
+      </tr>
+      <tr>
+        <td>C++</td>
+        <td>REST</td>
+        <td>Vim</td>
+      </tr>
+      <tr>
+        <td>Elixir</td>
+        <td>AJAX</td>
+        <td>Scrum</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<div class="row">
+  <h3>Education</h3>
+  <hr />
+  <h4>B.S. Computer Science and Computer Security from East Stroudsburg University of Pennsylvania <small>2007-2010</small></h4>
+  <hr />
+</div>
