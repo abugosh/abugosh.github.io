@@ -34,18 +34,6 @@ plugins:
 
 collections:
   jobs:
-    order:
-      - jellyvision-director.md
-      - jellyvision-principal.md
-      - avant.md
-      - essi.md
-      - proteus-senior.md
-      - raytheon.md
-      - proteus.md
-      - right-reason.md
-      - esu.md
-      - startup.md
-      - wireless-solutions.md
 
 # Exclude from processing.
 # The following items will not be processed, by default.

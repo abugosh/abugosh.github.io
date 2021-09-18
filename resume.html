@@ -8,7 +8,8 @@ permalink: /resume/
 </div>
 <div class="row">
   <h3>Experience</h3>
-  {% for job in site.jobs %}
+  {% assign jobs = site.jobs | sort: 'display_order' %}
+  {% for job in jobs %}
     <hr />
     <h4>{{ job.title }} at {{ job.company }} <small>{{ job.start }} - {{ job.end }}</small></h4>
 
