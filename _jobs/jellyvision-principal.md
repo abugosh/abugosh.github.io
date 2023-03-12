@@ -7,11 +7,11 @@ display_order: -90
 ---
 - Principal Engineer <small>June 2018 - December 2020</small>
   - Acted as the Technical Security expert across the engineering organization
-  - Advised senior leadership on strategy
+  - Advised senior leadership on technology strategy
   - Led a team focused on internal performance and operational improvements
   - Designed the architecture for integrating with new partners
   - Developed and implemented a new interview framework for engineering hiring
-  - Worked directly with the frontend tooling team to improve its architecture, processes, and practices
+  - Consulted with the frontend tooling team to improve its architecture, processes, and practices
   - Developed several proof of concepts
 - Security Architect <small>March 2017 - June 2018</small>
   - Acted as the Technical Security expert across the engineering organization
@@ -21,7 +21,7 @@ display_order: -90
   - Identified vulnerabilities in our AWS infrastructure and worked with the Operations team to develop remediations
   - Performed secure code reviews and worked with engineering teams to deploy fixes
 - Tech Lead Platform <small>September 2016 - March 2017</small>
-  - Refactored core parts of the platform while adding extensive testing
-  - Developed an integration test suite to cover core application loading
+  - Refactored core parts of the platform and added extensive testing to a Ruby on Rails application
+  - Developed an integration test suite to cover core application load path
   - Coordinated across the engineering organization to develop and deploy changes to url handling
   - Mentored junior members of the team on developing new micro services
