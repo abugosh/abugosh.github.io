@@ -12,4 +12,4 @@ display_order: -100
 - Developed and presented the technical strategy company wide
 - Worked directly with Product Leadership to design solutions for new products
 - Led development effort to build new platform capability
-- Architected the integration of an aquired company's technology ecosystem
+- Architected the integration of an acquired company's technology ecosystem
