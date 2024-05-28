@@ -13,3 +13,4 @@ display_order: -100
 - Worked directly with Product Leadership to design solutions for new products
 - Led development effort to build new platform capability
 - Architected the integration of an acquired company's technology ecosystem
+- Built POC capabilities to prove usecases for LLM and GenAI technologies in Python
