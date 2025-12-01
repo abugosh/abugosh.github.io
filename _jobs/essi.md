@@ -5,6 +5,6 @@ start: March 2015
 end: December 2016
 display_order: -70
 ---
-- Implemented compression improvements improving bandwidth usage by 30% using C++
-- Improved build and rebuild times of prodject by several hours by updating build system
-- Developed test framework for remote sensor platform using C++
+- Reduced bandwidth usage 30% through compression improvements in deployed sensor systems (C++)
+- Cut build times by hours through build system overhaul
+- Developed test framework for remote sensor platform

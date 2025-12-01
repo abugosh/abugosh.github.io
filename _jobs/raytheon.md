@@ -5,6 +5,6 @@ start: August 2013
 end: June 2014
 display_order: -50
 ---
-- Performed vulnerability analysis of various applications using a combination of custom fuzzing frameworks and IDA Pro
-- Developed extensions to custom analysis platform using C and used data to enhance IDA databases using IDAPython
-- Developed document database with a Backbone.js and Bootstrap front-end, Django middleware, and programmaticly utilized a combination of Git and MySQL for storage
+- Performed offensive security research: vulnerability analysis using custom fuzzing frameworks and IDA Pro
+- Built tooling extensions in C and IDAPython to enhance analysis workflows
+- Developed internal document management system (Backbone.js, Django, Git-backed storage) - leveraged web dev skills uncommon in security research team

@@ -6,22 +6,15 @@ end: December 2020
 display_order: -90
 ---
 - Principal Engineer <small>June 2018 - December 2020</small>
-  - Acted as the Technical Security expert across the engineering organization
-  - Advised senior leadership on technology strategy
-  - Led a team focused on internal performance and operational improvements
-  - Designed the architecture for integrating with new partners
-  - Developed and implemented a new interview framework for engineering hiring
-  - Consulted with the frontend tooling team to improve its architecture, processes, and practices
-  - Developed several proof of concepts
+  - Embedded with struggling teams to diagnose systemic issues; analysis drove strategic decision to sunset legacy tool
+  - Designed configuration service architecture to replace error-prone per-customer customization process
+  - Built KMS-backed encryption for user data, coordinating SREs, app team, and Data team to enable analytics while meeting Legal requirements
+  - Created scenario-based architecture interview with rubric, now standard for all senior+ engineering candidates
 - Security Architect <small>March 2017 - June 2018</small>
-  - Acted as the Technical Security expert across the engineering organization
-  - Developed security policy while working with stakeholders throughout the organization
-  - Managed access to AWS via policy and roles developed in IAM
-  - Worked with our engineering teams on deploying AWS Cognito
-  - Identified vulnerabilities in our AWS infrastructure and worked with the Operations team to develop remediations
-  - Performed secure code reviews and worked with engineering teams to deploy fixes
+  - Found and fixed RCE vulnerability: traced user input through dynamic method dispatch to eval
+  - Led incident response for server compromise: forensic analysis, infrastructure rebuild, credential rotation
+  - Built discovery tooling to identify S3/DNS misconfigurations; remediated open buckets and reclaimed captured domains
+  - Wrote security policy that remained in use until dedicated security team was hired years later
 - Tech Lead Platform <small>September 2016 - March 2017</small>
-  - Refactored core parts of the platform and added extensive testing to a Ruby on Rails application
-  - Developed an integration test suite to cover core application load path
-  - Coordinated across the engineering organization to develop and deploy changes to url handling
-  - Mentored junior members of the team on developing new micro services
+  - Built integration test suite enabling weekly deploys year-round (previously seasonal freeze)
+  - Architected partner integration API; implemented case-insensitive URL handling to prevent client failures

@@ -18,13 +18,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Alex Bugosh 
+title: Alex Bugosh
 email: abugosh@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Alex Bugosh's personal website and resume!
+  Director of Architecture specializing in platform transformations, AI/LLM products, and solving hard problems others avoid.
 baseurl: ""
-url: "http://abugo.sh" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: abugosh
+url: "https://abugo.sh" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  abugosh
 
 # Build settings

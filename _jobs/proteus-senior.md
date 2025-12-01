@@ -5,6 +5,6 @@ start: August 2014
 end: March 2015
 display_order: -60
 ---
-- Developed prototype user survey tool using Ruby on Rails
-- Co-authored winning IMC proposal
-- Modified Android Bootloader to include security enhancements
+- Solo-developed Android boot security feature: modified kernel to verify encrypted checksums during boot, custom hardware integration (~$50k contract delivered in 1-2 months)
+- Co-authored winning contract proposal; returned specifically to implement the design
+- Built Ruby on Rails survey application for customer research
