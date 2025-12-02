@@ -5,7 +5,7 @@ start: January 2016
 end: July 2016
 display_order: -80
 ---
-- Unblocked critical Rails 3.2→4.2 migration: built profiling framework (DSL + SQLite) to diagnose ActiveRecord encryption performance regression, fixed the patch
-- Profiling framework adopted org-wide for subsequent performance investigations
+- Led Rails 3→4 migration for large monolithic application; multi-month effort across engineering org
+- Built profiling framework to diagnose critical ActiveRecord performance regression blocking the migration; framework adopted org-wide
 - Designed service-to-service authentication POC using Hashicorp Vault and PKI
 - Managed bug bounty program; led sensitive data audit across database
